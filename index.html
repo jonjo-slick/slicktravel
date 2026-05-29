@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Slick Travel | Experience Architects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rugby-green': '#2c3e3a',
+                        'champagne': '#dcd7c9',
+                        'slick-black': '#1a1a1a',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html, body { background-color: white; margin: 0; padding: 0; width: 100%; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+        .page-wrapper { width: 100%; overflow-x: hidden; }
+        
+        .ops-header {
+            font-size: clamp(2.2rem, 8vw, 4.5rem);
+            line-height: 1.1;
+            hyphens: auto;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="bg-white font-serif text-slick-black">
+    <div class="page-wrapper">
+
+        <nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md text-rugby-green py-6 px-8 flex justify-between items-center border-b border-champagne/10">
+            <img src="Slick-Logo.png" class="h-10 md:h-12" alt="Slick logo">
+            <div class="hidden md:flex gap-8 uppercase tracking-[0.2em] text-[10px] font-bold">
+                <a href="#music" class="hover:text-slick-black transition">Music Tourism</a>
+                <a href="#sports" class="hover:text-slick-black transition">Sport Tourism</a>
+                <a href="#ops" class="hover:text-slick-black transition">Operations & Sponsorship</a>
+                <a href="#testimonials" class="hover:text-slick-black transition">Client Testimonials</a>
+                <a href="#contact" class="border border-rugby-green px-4 py-1 hover:bg-rugby-green hover:text-white transition">Enquiry</a>
+            </div>
+        </nav>
+
+        <section class="h-screen flex flex-col justify-center items-center text-center bg-white text-rugby-green px-6 pt-20">
+            <span class="uppercase tracking-[0.5em] text-2xl md:text-3xl mb-8 opacity-90 font-bold">Slick Travel</span>
+            <h1 class="text-[10vw] md:text-[90px] font-black uppercase tracking-tighter leading-[0.9] mb-8 italic break-words">
+                Making the journey<br>part of the experience.
+            </h1>
+            <p class="text-xl md:text-2xl italic max-w-4xl opacity-90 leading-relaxed font-light text-slick-black">
+                Curating seamless movement through the world’s most iconic events.
+            </p>
+        </section>
+
+        <section id="music" class="min-h-screen flex items-center bg-rugby-green text-champagne py-24 px-6 relative">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-6xl font-bold uppercase mb-8 leading-none">Music<br>Tourism</h2>
+                    <div class="space-y-6 text-xl opacity-90 leading-relaxed max-w-lg font-light">
+                        <p>We solve the friction of festival movement. For global talent and high-net-worth attendees, we turn complex transit into a silent, seamless opening act.</p>
+                    </div>
+                    <div class="mt-12 p-8 bg-white/5 border border-white/10 backdrop-blur-md rounded-sm">
+                        <h3 class="text-sm uppercase tracking-widest font-bold mb-4 border-b border-white/20 pb-2">Recent Project: Glastonbury 2025 | Heli-Hops</h3>
+                        <p class="text-lg italic opacity-80 leading-relaxed font-light">We provided a seamless shuttle service for guests, bypassing event gridlock and delivering that rock-and-roll feeling of flying into Glastonbury. Sponsored by Papa Salt Coastal Gin.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <img src="Slick-Travel-Vehicle.jpg" class="w-full h-80 object-cover shadow-2xl rounded-sm">
+                    <img src="Couple-Helicopter.jpg" class="w-full h-80 object-cover shadow-2xl rounded-sm">
+                </div>
+            </div>
+        </section>
+
+        <section id="sports" class="min-h-screen flex items-center bg-champagne text-rugby-green py-24 px-6">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+                <div class="grid grid-cols-2 gap-4 order-2 md:order-1">
+                    <img src="Everyone-Jet.jpg" class="w-full h-72 object-cover shadow-lg rounded-sm">
+                    <img src="Lewis-Rome.jpg" class="w-full h-72 object-cover shadow-lg rounded-sm mt-8">
+                    <img src="Rome-selfie.jpg" class="w-full h-72 object-cover shadow-lg rounded-sm -mt-8">
+                    <img src="Rome-Talk.jpg" class="w-full h-72 object-cover shadow-lg rounded-sm">
+                </div>
+                <div class="order-1 md:order-2">
+                    <h2 class="text-6xl font-bold uppercase mb-8 leading-none">Sport<br>Tourism</h2>
+                    <div class="space-y-6 text-xl leading-relaxed text-rugby-green/90 font-light">
+                        <p>Building tailored experiences for sports fans and stars who want to share experiences alike.</p>
+                    </div>
+                    <div class="mt-12 p-8 bg-rugby-green/5 border border-rugby-green/10 rounded-sm">
+                        <h3 class="text-sm uppercase tracking-widest font-bold mb-4 border-b border-rugby-green/20 pb-2">Recent Project: England vs Rome | 6 Nations 2026</h3>
+                        <p class="text-lg italic opacity-95 leading-relaxed font-medium">An intimate two-day weekend for a select number of guests, based around the Italy vs England match in Rome and hosted by Rugby World Cup winners Lewis Moody MBE & Phil Vickery MBE.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ops" class="min-h-screen bg-black/40 bg-fixed bg-cover bg-center flex items-center justify-center py-24 px-4" style="background-image: url('Helicopter-Battersea.jpg')">
+            <div class="w-full max-w-4xl bg-black/80 backdrop-blur-xl p-8 md:p-16 border border-white/10 text-champagne rounded-sm shadow-2xl mx-auto">
+                <h2 class="ops-header font-bold uppercase mb-12 text-center">Operations, Logistics & Sponsorship</h2>
+                <div class="grid md:grid-cols-2 gap-10 max-w-3xl mx-auto">
+                    <div class="border-l border-champagne/40 pl-6">
+                        <h4 class="uppercase tracking-[0.2em] text-[11px] font-black text-champagne mb-3">Site Orchestration</h4>
+                        <p class="opacity-80 font-light leading-relaxed text-sm md:text-base">Land, Sea & Air Travel planning and logistics for complex and high-traffic events.</p>
+                    </div>
+                    <div class="border-l border-champagne/40 pl-6">
+                        <h4 class="uppercase tracking-[0.2em] text-[11px] font-black text-champagne mb-3">Brand Sponsorship</h4>
+                        <p class="opacity-80 font-light leading-relaxed text-sm md:text-base">Connecting brands with audiences in unique campaigns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="bg-white py-32 px-6 border-y border-champagne/20">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-center text-xs uppercase tracking-[0.5em] mb-16 opacity-40">Client Testimonials</h2>
+                <div class="grid md:grid-cols-3 gap-12 mb-20 text-left">
+                    <div class="italic text-lg leading-relaxed opacity-80 border-r border-champagne/30 pr-8">
+                        "Absolutely incredible operators - I couldn’t recommend slick travel highly enough."
+                        <span class="block mt-4 non-italic font-bold text-xs uppercase tracking-widest">— Matt</span>
+                    </div>
+                    <div class="italic text-lg leading-relaxed opacity-80 border-r border-champagne/30 pr-8">
+                        "Slick really do live up to their name. One of the most memorable trips I have ever done."
+                        <span class="block mt-4 non-italic font-bold text-xs uppercase tracking-widest">— Simon</span>
+                    </div>
+                    <div class="italic text-lg leading-relaxed opacity-80">
+                        "Their team is incredibly helpful and flexible. I would trust them for any travel needs."
+                        <span class="block mt-4 non-italic font-bold text-xs uppercase tracking-widest">— Charlie Maas</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="https://share.google/3fiAo1PHVXQmsSJrI" target="_blank" class="inline-flex items-center gap-4 border border-rugby-green px-8 py-4 uppercase tracking-widest text-[10px] font-bold hover:bg-rugby-green hover:text-white transition duration-500">
+                        View more Google Reviews
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-rugby-green text-champagne py-32 px-6 text-center">
+            <h2 class="text-5xl font-black uppercase mb-12 italic">How about that ride in?</h2>
+            <div class="flex flex-col items-center gap-8 text-sm uppercase tracking-[0.3em] font-bold">
+                <a href="mailto:jonjo@slicktravel.co.uk" class="hover:text-white transition">jonjo@slicktravel.co.uk</a>
+                <span class="opacity-60">+44 7806974739</span>
+                <a href="https://wa.me/447806974739" target="_blank" class="flex items-center gap-3 border border-champagne px-8 py-4 rounded-sm hover:bg-white hover:text-rugby-green transition duration-500">
+                    Connect on WhatsApp
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
